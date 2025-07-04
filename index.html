@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ตัวอย่าง</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="about.html">เกี่ยวกับ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>ยินดีต้อนรับสู่เว็บไซต์ของเรา!</h1>
+    <p>เว็บไซต์ที่นำเสนอเนื้อหาหลายรูปแบบและบริการต่างๆ ที่คุณจะได้รับประสบการณ์ใหม่ๆ</p>
+    <a href="about.html" class="btn">เรียนรู้เพิ่มเติม</a>
+    <p>กดที่รูปเพื่อดู</p>
+</section>
+
+<!-- ช่องใส่รูปภาพ 10 ช่อง -->
+<section class="image-gallery">
+    <div class="image-container">
+        <img src="img/1.png" alt="Image 1" class="thumbnail" ฟหกดหฟกด>
+        <img src="img/2.png" alt="Image 2" class="thumbnail">
+        <img src="img/3.png" alt="Image 3" class="thumbnail">
+        <img src="img/4.png" alt="Image 4" class="thumbnail">
+        <img src="img/5.png" alt="Image 5" class="thumbnail">
+        <img src="img/6.png" alt="Image 6" class="thumbnail">
+        <img src="img/7.png" alt="Image 7" class="thumbnail">
+        <img src="img/8.png" alt="Image 8" class="thumbnail">
+        <img src="img/9.png" alt="Image 9" class="thumbnail">
+        <img src="img/10.png" alt="Image 10" class="thumbnail">
+    </div>
+</section>
+
+<!-- Modal สำหรับแสดงภาพขนาดใหญ่ -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption" style="color: aliceblue;"></div>
+</div>
+
+<footer>
+    <p>&copy; 2025 เว็บไซต์ตัวอย่าง | ทุกสิทธิ์ถูกสงวน</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
